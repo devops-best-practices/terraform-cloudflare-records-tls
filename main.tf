@@ -9,7 +9,7 @@ resource "cloudflare_record" "record" {
   value    = each.value[1]
   
   lifecycle {
-    ignore_changes = ["proxied"]
+    ignore_changes = [proxied]
   }
 }
 
