@@ -32,3 +32,7 @@ module "dns" {
   }
 }
 ```
+
+## Deployment
+
+This role will be automatically built and deployed to [Terraform Registry](https://registry.terraform.io) when a [Semver](https://semver.org) tag is pushed to the repo.
